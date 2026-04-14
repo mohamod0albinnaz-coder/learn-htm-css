@@ -1,0 +1,117 @@
+/*////////////////////header////////////////////*/
+*{ box-sizing: border-box; margin: 0; padding: 0; }
+
+body{
+  background-color: #004080;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  position: relative;
+  height: 500px;
+}
+.nav-par{
+  background-color: #7099c2;
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+.logo{
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.btn{
+  position: absolute;
+  top: 30px;
+  font-weight: bold;
+  color: white;
+}
+.btn-nav-1{right: 35%;}
+.btn-nav-2{right: 28%;}
+.btn-nav-3{right: 23%;}
+.btn-nav-4{right: 14%;}
+.hedh1{ 
+  position: absolute;
+  top: 250px;
+  right: 50px; }
+.headerh1{ top: 130px; }
+.headerh2{ top: 180px; }
+.headerh3{ top: 250px; } 
+
+
+/*////////////////////content////////////////////*/
+.content{ 
+  flex: 1;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-content{
+  background: rgb(255 255 255 / 10%);
+  width: 1200px;
+  height: 800px;
+  border-radius: 20px;
+  position: absolute;
+  top: 150px;
+  right: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.back-content p{
+  background-color: #004080;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 500px;
+}
+.imgimg{
+  width: 1000px;
+  height: 600px;
+  border-radius: 20px;
+  position: absolute;
+  top: 250px;
+}
+
+/*////////////////////footer////////////////////*/
+.footer{
+    background-color: #7099c2;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;        
+}
+.footer a{
+  font-size: 15px;
+  color: white;
+  font-weight: 200;
+  text-decoration: none;
+}
+.footer a:hover{
+  color: #e69c00;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
+

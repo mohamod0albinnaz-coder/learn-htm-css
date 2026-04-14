@@ -1,0 +1,152 @@
+/*////////////////////header////////////////////*/
+*{ box-sizing: border-box; margin: 0; padding: 0; }
+body{
+  background-color: #004080;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  position: relative;
+  height: 500px;
+}
+.nav-par{
+  background-color: #7099c2;
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+.logo{
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.form-logo{
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  left: 185px;
+}
+.btn{
+  position: absolute;
+  top: 30px;
+  font-weight: bold;
+  color: white;
+}
+.btn-nav-1{right: 35%;}
+.btn-nav-2{right: 28%;}
+.btn-nav-3{right: 23%;}
+.btn-nav-4{right: 14%;}
+/*////////////////////content////////////////////*/
+.content{ 
+  flex: 1;
+  min-height: 200px;
+}
+.vid-cont{
+  width: 600px;
+  height: 200px;
+  position: absolute;
+  top: 50px;
+  right: -50px;
+}
+.back-video{
+  background: rgb(255 255 255 / 10%);
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;;
+  position: absolute;
+  top: 150px;
+  right: 740px;
+}
+.parent-form{
+  background-color: #7099c2;
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+  position: absolute;
+  top: 150px;
+  right: 50px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.user ,.pas{
+  direction: ltr;
+  border-radius: 5px;
+  position: absolute;
+  top: -10px;
+}
+.user{
+  right: 300px;
+}
+.pas{
+  right: -250px;
+}
+.btn-cont-1{
+  height: 40px;
+  border-radius: 50px;
+  font-weight: bold;
+  position: absolute;
+  top: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e69c00;
+  width: 300px;
+  right: 190px;
+}
+.btn-cont-1 a{
+  text-decoration: none;
+  color: white;
+}
+/*////////////////////footer////////////////////*/
+.footer{
+    background-color: #7099c2;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;        
+}
+.footer a{
+  font-size: 15px;
+  color: white;
+  font-weight: 200;
+  text-decoration: none;
+}
+.footer a:hover{
+  color: #e69c00;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
