@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>انشاء حساب</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/stylesheet-Create-Account.css" />
+  </head>
+  <body>
+    <section class="header">
+      <div class="nav-par">
+        <a class="nav-a" href="http://127.0.0.1:5500/index-Home.html">
+          <img class="logo" src="imgs/logo-1.png" alt="logo" />
+        </a>
+        <a class="btn-nav-1" href="index-Home.html">
+          <button type="button" class="btn btn-nav-1">الرئيسية</button>
+        </a>
+        <a class="btn-nav-2" href="index-servis.html">
+          <button type="button" class="btn btn-nav-2">الخدمات</button>
+        </a>
+        <a class="btn-nav-3" href="index-about.html">
+          <button type="button" class="btn btn-nav-3">عنا</button>
+        </a>
+        <a class="btn-nav-4" href="#">
+          <button type="button" class="btn btn-nav-4">تواصل معنا</button>
+        </a>
+      </div>
+    </section>
+    <section class="content">
+      <div class="back-video">
+        <p>بيانات انشاء الحساب</p>
+        <img class="logo" src="imgs/logo-1.png" alt="logo" />
+        <form id="createAccountForm" class="row g-3">
+          <div class="col-12">
+            <label class="form-label">الصورة الشخصية</label>
+            <input type="file" class="form-control" accept="image/*" />
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">الاسم الاول</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="الاسم الاول"
+              required
+            />
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">الاسم الاخير</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="الاسم الاخير"
+              required
+            />
+          </div>
+
+          <div class="col-12">
+            <label class="form-label">اسم المستخدم</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="اسم المستخدم (Username)"
+              required
+            />
+          </div>
+
+          <div class="col-12">
+            <label class="form-label">البريد الالكتروني</label>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="البريد الالكتروني"
+              required
+            />
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">كلمة المرور</label>
+            <input
+              type="password"
+              class="form-control"
+              placeholder="كلمة المرور"
+              required
+            />
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">تأكيد كلمة المرور</label>
+            <input
+              type="password"
+              class="form-control"
+              placeholder="تأكيد كلمة المرور"
+              required
+            />
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">الفرقة</label>
+            <input type="text" class="form-control" placeholder="الفرقة" />
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">الشعبة</label>
+            <input type="text" class="form-control" placeholder="الشعبة" />
+          </div>
+
+          <div class="col-12">
+            <label class="form-label">رقم الهاتف</label>
+            <input
+              type="tel"
+              class="form-control"
+              placeholder="رقم الهاتف / واتساب"
+              required
+            />
+          </div>
+
+          <div class="col-12">
+            <label class="form-label">العنوان</label>
+            <input type="text" class="form-control" placeholder="العنوان" />
+          </div>
+
+          <div class="col-12">
+            <label class="form-label">كيف عرفت عنا</label>
+            <select class="form-control">
+              <option>كيف عرفت عنا؟</option>
+              <option>صديق</option>
+              <option>فيسبوك</option>
+              <option>اعلان</option>
+              <option>جروب</option>
+            </select>
+          </div>
+
+          <div class="col-12 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="notifications"
+            />
+            <label class="form-check-label"
+              >أوافق على استقبال رسائل/إشعارات</label
+            >
+          </div>
+
+          <div class="col-12 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="terms"
+              required
+            />
+            <label class="form-check-label">الموافقة على الشروط والأحكام</label>
+          </div>
+
+          <div class="col-12 text-end btnsab">
+            <button type="submit" class="btn btn-warning px-5 py-2">
+              Create Account
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-links">
+        <a href="https://www.youtube.com/@mahmoudelbana9172">يوتيوب</a>
+        /
+        <a href="https://www.facebook.com/mahmoudhamada.albanna">فيسبوك</a>
+        /
+        <a
+          href="https://www.linkedin.com/in/%D9%85%D8%AD%D9%85%D9%88%D8%AF-%D8%A7%D9%84%D8%A8%D9%86%D8%A7-mahmoud-b4b85938a/"
+          >لينكد إن</a
+        >
+        /
+        <a
+          href="https://www.instagram.com/mahmoud_hamada_elbanna/?utm_source=wa4a&utm_campaign=wa_vpl_m2_vf_web"
+          >انستجرام</a
+        >
+        /
+        <a href="https://github.com/mohamod0albinnaz-coder">جيت هاب</a>
+        /
+        <a
+          href="https://www.tiktok.com/@mahmoud.hamada.al4?_r=1&_t=ZS-956P3BUBJ5T"
+          >تيك توك</a
+        >
+      </div>
+      <p>Made with love by Mahmoud ElBanna © 2026</p>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
