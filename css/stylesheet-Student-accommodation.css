@@ -87,7 +87,7 @@ body{
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 400px;
+  top: 250px;
 }
 
 /*////////////////////footer////////////////////*/
@@ -111,11 +111,3 @@ body{
   color: #e69c00;
   transition: 0.3s;
 }
-
-
-
-
-
-
-
-

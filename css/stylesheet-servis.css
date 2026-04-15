@@ -73,7 +73,7 @@ body{
   color: #fff;
   font-weight: 900;
 }
-.icon-1 ,.icon-2 ,.icon-3 ,.icon-4 ,.icon-5 ,.icon-6 ,.icon-7 ,.icon-8 ,.icon-9 ,.icon-10 ,.icon-11 ,.icon-12 ,.icon-13{
+.icon-1 ,.icon-2 ,.icon-3 ,.icon-4 ,.icon-5 ,.icon-6 ,.icon-7 ,.icon-8 ,.icon-9 ,.icon-10 ,.icon-11 ,.icon-12 ,.icon-13 ,.icon-14{
   width: 250px;
   margin: 0px 5px;
   display: flex;
@@ -191,28 +191,3 @@ body{
   color: #e69c00;
   transition: 0.3s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

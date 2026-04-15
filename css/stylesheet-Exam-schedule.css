@@ -84,7 +84,7 @@ body{
   height: 600px;
   border-radius: 20px;
   position: absolute;
-  top: 250px;
+  top: 150px;
 }
 
 /*////////////////////footer////////////////////*/
@@ -108,11 +108,3 @@ body{
   color: #e69c00;
   transition: 0.3s;
 }
-
-
-
-
-
-
-
-

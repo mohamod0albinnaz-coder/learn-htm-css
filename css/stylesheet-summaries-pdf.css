@@ -48,7 +48,7 @@ body{
 /*////////////////////content////////////////////*/
 .content{ 
   flex: 1;
-  min-height: 1000px;
+  min-height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +56,7 @@ body{
 .back-content{
   background: rgb(255 255 255 / 10%);
   width: 1200px;
-  height: 1300px;
+  height: 700px;
   border-radius: 20px;
   position: absolute;
   top: 150px;
@@ -112,8 +112,7 @@ body{
 .book10{ top: 500px; right: 390px;}
 .book11{ top: 500px; right: 660px;}
 .book12{ top: 500px; right: 930px;}
-.book13{ top: 700px; right: 120px;}
-.book14{ top: 700px; right: 390px;}
+
 
 /*////////////////////footer////////////////////*/
 .footer{
@@ -136,11 +135,3 @@ body{
   color: #e69c00;
   transition: 0.3s;
 }
-
-
-
-
-
-
-
-
