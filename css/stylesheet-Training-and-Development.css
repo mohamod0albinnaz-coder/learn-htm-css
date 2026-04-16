@@ -61,6 +61,7 @@ body{
   position: absolute;
   top: 150px;
   right: 80px;
+  grid-template-columns: repeat(1 , 1fr);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,4 +117,146 @@ body{
 .footer a:hover{
   color: #e69c00;
   transition: 0.3s;
+}
+
+@media (max-width: 576px) {
+  .header{
+    height: auto;
+  }
+  .nav-par{
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+  .logo{
+    position: static;
+    width: 120px;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+  .btn{
+    position: static;
+    display: inline-block;
+    margin: 5px;
+  }
+  .hedh1,
+  .headerh1,
+  .headerh2,
+  .headerh3{
+    position: static;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .content{
+    min-height: auto;
+    padding: 15px;
+  }
+  .back-content{
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .back-content p{
+    position: static;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .imgimg{
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+  .ter1,
+  .ter2,
+  .ter3,
+  .ter4{
+    top: auto;
+    right: auto;
+  }
+  .footer{
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    gap: 5px;
+    padding: 10px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .header{
+    height: auto;
+  }
+  .nav-par{
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+  .logo{
+    position: static;
+    width: 120px;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+  .btn{
+    position: static;
+    display: inline-block;
+    margin: 5px;
+  }
+  .hedh1,
+  .headerh1,
+  .headerh2,
+  .headerh3{
+    position: static;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .content{
+    min-height: auto;
+    padding: 15px;
+  }
+  .back-content{
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .back-content p{
+    position: static;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .imgimg{
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+  .ter1,
+  .ter2,
+  .ter3,
+  .ter4{
+    top: auto;
+    right: auto;
+  }
+  .footer{
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    gap: 5px;
+    padding: 10px;
+  }
 }

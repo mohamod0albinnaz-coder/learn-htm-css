@@ -100,12 +100,12 @@ body{
   align-items: center;
   justify-content: center;
 }
-.book1{ top: 100px; right: 75px;}
+.book1{ top: 100px; right: 50px;}   
 .book2{ top: 100px; right: 450px;}
-.book3{ top: 100px; right: 825px;}
-.book4{ top: 600px; right: 75px;}
+.book3{ top: 100px; right: 850px;}
+.book4{ top: 600px; right: 50px;}
 .book5{ top: 600px; right: 450px;}
-.book6{ top: 600px; right: 825px;}
+.book6{ top: 600px; right: 850px;}
 
 
 /*////////////////////footer////////////////////*/
@@ -128,4 +128,184 @@ body{
 .footer a:hover{
   color: #e69c00;
   transition: 0.3s;
+}
+
+@media (max-width: 576px) {
+  .header{
+    height: auto;
+  }
+  .nav-par{
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+  .logo{
+    position: static;
+    width: 120px;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+  .btn{
+    position: static;
+    display: inline-block;
+    margin: 5px;
+  }
+  .hedh1,
+  .headerh1,
+  .headerh2,
+  .headerh3{
+    position: static;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .content{
+    min-height: auto;
+    padding: 15px;
+  }
+  .back-content{
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .back-content-p{
+    position: static;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+.book{
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .imgbook{
+    width: 100%;
+    height: auto;
+  }
+  .pbook{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .back-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .book1,
+  .book2,
+  .book3,
+  .book4,
+  .book5,
+  .book6{
+    top: auto;
+    right: auto;
+  }
+  .footer{
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    gap: 5px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header{
+    height: auto;
+  }
+  .nav-par{
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+  .logo{
+    position: static;
+    width: 120px;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+  .btn{
+    position: static;
+    display: inline-block;
+    margin: 5px;
+  }
+  .hedh1,
+  .headerh1,
+  .headerh2,
+  .headerh3{
+    position: static;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .content{
+    min-height: auto;
+    padding: 15px;
+  }
+  .back-content{
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .back-content-p{
+    position: static;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+.book{
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .imgbook{
+    width: 100%;
+    height: auto;
+  }
+  .pbook{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .back-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .book1,
+  .book2,
+  .book3,
+  .book4,
+  .book5,
+  .book6{
+    top: auto;
+    right: auto;
+  }
+  .footer{
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    gap: 5px;
+    padding: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .back-content{
+    grid-template-columns: 1fr; 
+  }
+}
+@media (max-width: 768px) {
+  .back-content{
+    grid-template-columns: repeat(2, 1fr); 
+  }
 }

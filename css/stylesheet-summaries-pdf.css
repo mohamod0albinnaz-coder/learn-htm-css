@@ -11,7 +11,7 @@ body{
 }
 .header{
   position: relative;
-  height: 500px;
+  height: 200px;
 }
 .nav-par{
   background-color: #7099c2;
@@ -44,7 +44,6 @@ body{
 .headerh2{ top: 180px; }
 .headerh3{ top: 250px; } 
 
-
 /*////////////////////content////////////////////*/
 .content{ 
   flex: 1;
@@ -55,43 +54,30 @@ body{
 }
 .back-content{
   background: rgb(255 255 255 / 10%);
-  width: 1200px;
-  height: 700px;
+  width: 95%;
   border-radius: 20px;
-  position: absolute;
-  top: 150px;
-  right: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* موبايل عمودين */
+  gap: 15px;
 }
 .back-content-p{ 
   background-color: #004080;
-  width: 200px;
-  height: 40px;
   border-radius: 20px;
   font-weight: bold;
-  display: flex;
-  align-items: center; 
-  justify-content: center;
-  position: absolute; 
-  top: 20px; 
-  right: 500px;
+  grid-column: span 2;
+  text-align: center;
+  padding: 8px;
 }
 .book{
   background: white;
-  width: 150px;
-  height: 150px;
-  border-radius: 50px;
-  position: absolute;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: column;
+
 }
-.imgbook{ width: 140px; border-radius: 50px;}
+.imgbook{ width: 100px; max-width: 150px; border-radius: 50px;}
 .pbook{
   color: black;
   font-weight: bold;
@@ -100,18 +86,8 @@ body{
   align-items: center;
   justify-content: center;
 }
-.book1{ top: 100px; right: 120px;}
-.book2{ top: 100px; right: 390px;}
-.book3{ top: 100px; right: 660px;}
-.book4{ top: 100px; right: 930px;}
-.book5{ top: 300px; right: 120px;}
-.book6{ top: 300px; right: 390px;}
-.book7{ top: 300px; right: 660px;}
-.book8{ top: 300px; right: 930px;}
-.book9{ top: 500px; right: 120px;}
-.book10{ top: 500px; right: 390px;}
-.book11{ top: 500px; right: 660px;}
-.book12{ top: 500px; right: 930px;}
+
+
 
 
 /*////////////////////footer////////////////////*/
@@ -134,4 +110,40 @@ body{
 .footer a:hover{
   color: #e69c00;
   transition: 0.3s;
+}
+
+
+@media (max-width: 360px){
+  .back-content{
+    grid-template-columns: 1fr;
+  }
+  .back-content-p{
+    grid-column: span 1;
+  }
+.btn-nav-1{right: 55%; font-size: 14px;}
+.btn-nav-2{right: 36%; font-size: 14px;}
+.btn-nav-3{right: 27%; font-size: 14px;}
+.btn-nav-4{right: 3%; font-size: 14px;}
+.footer{
+    width: 100%;
+    height: 90px;
+}
+}
+
+
+@media (max-width: 768px){
+  .back-content{
+    grid-template-columns: 1fr;
+  }
+  .back-content-p{
+    grid-column: span 1;
+  }
+.btn-nav-1{right: 55%; font-size: 14px;}
+.btn-nav-2{right: 36%; font-size: 14px;}
+.btn-nav-3{right: 27%; font-size: 14px;}
+.btn-nav-4{right: 3%; font-size: 14px;}
+.footer{
+    width: 100%;
+    height: 90px;
+}
 }
