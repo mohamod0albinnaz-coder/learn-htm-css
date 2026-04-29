@@ -94,15 +94,7 @@ body{
 .img-book{
   width: 500px;
   height: 500px;
-}
-.pbook{
-  color: black;
-  font-weight: bold;
-  font-size: 30px;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius: 20px;
 }
 .bookparent{ width: 1120px; height: 500px; top: 100px; right: 50px;}
 
@@ -229,10 +221,6 @@ body{
     width: 100%;
     height: auto;
   }
-  .pbook{
-    font-size: 16px;
-    margin-top: 10px;
-  }
   .btn-btn{
     position: static;
     margin-top: 10px;
@@ -321,10 +309,6 @@ body{
     position: static;
     width: 100%;
     height: auto;
-  }
-  .pbook{
-    font-size: 16px;
-    margin-top: 10px;
   }
   .btn-btn{
     position: static;

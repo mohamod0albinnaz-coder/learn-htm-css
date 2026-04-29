@@ -129,11 +129,11 @@ body{
   width: 100px;
   height: 75px;
 }
-.btn-nav-1{top: 1px; right: 40%;}
-.btn-nav-2{top: 20px; right: 28%;}
-.btn-nav-3{top: 41px; right: 23%;}
-.btn-nav-4{top: 61px; right: 10%;}
-.content{ 
+.btn-nav-1{top: 65px;}
+.btn-nav-2{top: 45px;}
+.btn-nav-3{top: 20px;}
+.btn-nav-4{top: -5px;}
+.content{
   min-height: 300px;
   display: flex;
   align-items: center;

@@ -143,15 +143,13 @@ button.btn-warning {
   transition: 0.3s;
 }
 
-
+@media (max-width: 360px){
+}
 @media (max-width: 768px){
 .btn-nav-1{right: 40%;}
 .btn-nav-2{right: 28%;}
 .btn-nav-3{right: 23%;}
 .btn-nav-4{right: 10%;}
 }
-
-@media ( min-width: 992px) {
-}
-@media ( min-width: 1200px) {
-}
+@media ( min-width: 992px){}
+@media ( min-width: 1200px){}
